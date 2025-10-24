@@ -11,7 +11,7 @@ agent = Agent(
 )
 
 if __name__ == "__main__":
-    print("\Pandasbot: Ask me about spreadsheets. Type 'exit' to quit.\n")   
+    print("Pandasbot: Ask me about spreadsheets. Type 'exit' to quit.\n")   
 
     response = agent("List all available pandas tools")
     print(f"\nExcelBot > {response}")
